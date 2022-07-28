@@ -1,0 +1,26 @@
+.text-vertical {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  text-align: end;
+}
+
+.overflow {
+  overflow-x: scroll;
+}
+
+.overflow>div {
+  margin: 0px 15px;
+}
+
+.container-section {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.card-item {
+  min-width: 400px;
+}
+
+.card-item>img {
+  width: 100%;
+}

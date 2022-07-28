@@ -1,0 +1,49 @@
+.title {
+  font-size: 100px;
+  letter-spacing: 1rem;
+  animation: pulsate 1.5s infinite alternate;
+}
+
+.title-outline {
+  /* color: transparent; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+  font-size: 123px;
+  letter-spacing: 1rem;
+  margin-top: -50px;
+  animation: pulsate 1.5s infinite alternate;
+}
+
+.description {
+  margin-top: -25px;
+}
+
+@keyframes pulsate {
+
+  0% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #1352fe,
+      0 0 50px #1352fe,
+      0 0 60px #1352fe,
+
+  }
+
+  100% {
+
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #1352fe,
+      0 0 25px #1352fe,
+      0 0 35px #1352fe,
+      0 0 50px #1352fe,
+      0 0 40px #1352fe;
+
+  }
+}

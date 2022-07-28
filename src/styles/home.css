@@ -1,0 +1,31 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ededed #080808;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ededed;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
