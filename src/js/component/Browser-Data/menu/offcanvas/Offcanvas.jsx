@@ -17,8 +17,8 @@ function Offcanvas() {
           {
             store.favorites.map((item, index) => {
               return (
-                <div className='d-flex justify-content-between'>
-                  <Link to={`/details/${item.category}/${item.id}`} style={{ textDecoration: 'none' }} key={index}>
+                <div key={index} className='d-flex justify-content-between'>
+                  <Link to={`/details/${item.category}/${item.id}`} style={{ textDecoration: 'none' }}>
                     <div className='d-flex justify-content-between my-2'>
                       <div className='d-flex align-items-center'>
                         <img src={item.imageURL} width={40} height={40} alt="" />

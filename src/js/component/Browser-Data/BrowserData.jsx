@@ -1,8 +1,9 @@
 import React, { useContext } from 'react'
 import HeaderCleaner from '../headerCleaner.jsx'
 import AllItems from './items/AllItems.jsx'
-import MenuItems from './menu/menuItems.jsx'
-import Pagination from './menu/pagination.jsx'
+import Pagination from './menu/Pagination.jsx'
+import MenuItems from './menu/MenuItems.jsx'
+
 import './browserData.css'
 
 const BrowserData = () => {
